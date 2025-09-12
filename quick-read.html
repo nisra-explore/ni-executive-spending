@@ -609,19 +609,16 @@
   // chart text defaults before resize
   // if(window.outerWidth > 700) {
   //   Chart.defaults.font.size = 16;
-  //   overall_y_label.style.fontSize = "15px";
   // };
   if (window.outerWidth <= 700 && window.outerWidth > 600) {
     Chart.defaults.font.size = 14;
-    overall_y_label.style.fontSize = "15px";
   };
   if (window.outerWidth <= 600 && window.outerWidth > 450) {
     Chart.defaults.font.size = 12;
-    overall_y_label.style.fontSize = "12pt";
   };
   if (window.outerWidth < 450) {
     Chart.defaults.font.size = 8;
-    overall_y_label.style.fontSize = "8pt";
+    
   };
 
   // register datalabels plugin for chart js
