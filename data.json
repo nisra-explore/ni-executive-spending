@@ -1,0 +1,1066 @@
+{
+  "_metadata": ["Data for NI Executive webpage", "updated on 05/09/2025 10:01:23", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
+  "overall": {
+    "spend": 32,
+    "spend_pp": 16600,
+    "population": 1928000,
+    "tree_data": {
+      "Benefits and pensions (AME)": 13399,
+      "Health": 8729,
+      "Education": 3484,
+      "Infrastructure": 1453,
+      "Justice": 1420,
+      "Communities": 1128,
+      "Economy": 1069,
+      "DAERA": 727,
+      "Finance": 213,
+      "TEO": 211
+    },
+    "line_data": {
+      "2016-17": 19799,
+      "2017-18": 20701,
+      "2018-19": 22295,
+      "2019-20": 22897,
+      "2020-21": 27233,
+      "2021-22": 27186,
+      "2022-23": 27963,
+      "2023-24": 29336,
+      "2024-25": 31951
+    },
+    "line_data_per_person": {
+      "2016-17": 10600,
+      "2017-18": 11000,
+      "2018-19": 11800,
+      "2019-20": 12100,
+      "2020-21": 14300,
+      "2021-22": 14300,
+      "2022-23": 14600,
+      "2023-24": 15300,
+      "2024-25": 16600
+    }
+  },
+  "del": {
+    "spend": 18.6,
+    "spend_pp": 9600
+  },
+  "ame": {
+    "spend": 13.4,
+    "spend_pp": 7000,
+    "tree_data": {
+      "Pension and other related benefits": 3738,
+      "Working age benefits": 2898,
+      "Other": 2807,
+      "Disability benefits": 2678,
+      "Health and Social Care pensions": 873,
+      "Housing": 406
+    },
+    "line_data": {
+      "2016-17": 8163,
+      "2017-18": 8902,
+      "2018-19": 9879,
+      "2019-20": 9576,
+      "2020-21": 10368,
+      "2021-22": 10841,
+      "2022-23": 11585,
+      "2023-24": 11663,
+      "2024-25": 13399
+    },
+    "bar_data": {
+      "2016-17": {
+        "Other": 7307,
+        "Health and Social Care pensions": 811,
+        "Fire and rescue services": 44
+      },
+      "2017-18": {
+        "Other": 7699,
+        "Health and Social Care pensions": 1164,
+        "Fire and rescue services": 39
+      },
+      "2018-19": {
+        "Other": 8327,
+        "Health and Social Care pensions": 1489,
+        "Fire and rescue services": 62
+      },
+      "2019-20": {
+        "Pension and other related benefits": 2655,
+        "Other": 2108,
+        "Disability benefits": 1686,
+        "Working age benefits": 1570,
+        "Health and Social Care pensions": 1077,
+        "Housing": 479
+      },
+      "2020-21": {
+        "Pension and other related benefits": 2720,
+        "Other": 2026,
+        "Working age benefits": 1988,
+        "Disability benefits": 1774,
+        "Health and Social Care pensions": 1398,
+        "Housing": 462
+      },
+      "2021-22": {
+        "Pension and other related benefits": 2815,
+        "Other": 2079,
+        "Working age benefits": 2001,
+        "Disability benefits": 1864,
+        "Health and Social Care pensions": 1648,
+        "Housing": 435
+      },
+      "2022-23": {
+        "Pension and other related benefits": 2971,
+        "Working age benefits": 2197,
+        "Disability benefits": 2046,
+        "Health and Social Care pensions": 1984,
+        "Other": 1973,
+        "Housing": 414
+      },
+      "2023-24": {
+        "Pension and other related benefits": 3414,
+        "Working age benefits": 2480,
+        "Disability benefits": 2380,
+        "Other": 2178,
+        "Health and Social Care pensions": 797,
+        "Housing": 414
+      },
+      "2024-25": {
+        "Pension and other related benefits": 3738,
+        "Working age benefits": 2898,
+        "Other": 2807,
+        "Disability benefits": 2678,
+        "Health and Social Care pensions": 873,
+        "Housing": 406
+      }
+    }
+  },
+  "doh": {
+    "tree_data": {
+      "Hospital services": 5271,
+      "Other": 1803,
+      "Social care services": 1655
+    },
+    "line_data": {
+      "2016-17": 5206,
+      "2017-18": 5404,
+      "2018-19": 5755,
+      "2019-20": 6209,
+      "2020-21": 7523,
+      "2021-22": 7379,
+      "2022-23": 7678,
+      "2023-24": 8409,
+      "2024-25": 8729
+    },
+    "bar_data": {
+      "2016-17": {
+        "Hospital services": 3005,
+        "Social care services": 998,
+        "Pharmaceutical services": 480,
+        "General medical services": 264,
+        "Dental services": 107,
+        "Health support services": 92,
+        "Fire and rescue services": 83,
+        "Paramedic services": 76,
+        "Public health services": 75,
+        "Ophthalmic services": 24,
+        "Food Safety Promotion Board": 2
+      },
+      "2017-18": {
+        "Hospital services": 3139,
+        "Social care services": 1050,
+        "Pharmaceutical services": 491,
+        "General medical services": 267,
+        "Dental services": 107,
+        "Fire and rescue services": 90,
+        "Health support services": 83,
+        "Paramedic services": 77,
+        "Public health services": 74,
+        "Ophthalmic services": 24,
+        "Food Safety Promotion Board": 2
+      },
+      "2018-19": {
+        "Hospital services": 3370,
+        "Social care services": 1127,
+        "Pharmaceutical services": 491,
+        "General medical services": 289,
+        "Dental services": 106,
+        "Health support services": 94,
+        "Fire and rescue services": 91,
+        "Paramedic services": 83,
+        "Public health services": 76,
+        "Ophthalmic services": 24,
+        "Food Safety Promotion Board": 2
+      },
+      "2019-20": {
+        "Hospital services": 3658,
+        "Social care services": 1227,
+        "Pharmaceutical services": 493,
+        "General medical services": 312,
+        "Health support services": 117,
+        "Dental services": 106,
+        "Paramedic services": 96,
+        "Fire and rescue services": 92,
+        "Public health services": 83,
+        "Ophthalmic services": 23,
+        "Food Safety Promotion Board": 2
+      },
+      "2020-21": {
+        "Hospital services": 4430,
+        "Social care services": 1256,
+        "Pharmaceutical services": 549,
+        "Health support services": 463,
+        "General medical services": 355,
+        "Dental services": 132,
+        "Paramedic services": 120,
+        "Fire and rescue services": 95,
+        "Public health services": 94,
+        "Ophthalmic services": 26,
+        "Food Safety Promotion Board": 2
+      },
+      "2021-22": {
+        "Hospital services": 4593,
+        "Social care services": 1320,
+        "Pharmaceutical services": 536,
+        "General medical services": 369,
+        "Paramedic services": 129,
+        "Dental services": 125,
+        "Public health services": 101,
+        "Fire and rescue services": 99,
+        "Health support services": 82,
+        "Ophthalmic services": 24,
+        "Food Safety Promotion Board": 2
+      },
+      "2022-23": {
+        "Hospital services": 4387,
+        "Social care services": 1493,
+        "Pharmaceutical services": 521,
+        "Health support services": 443,
+        "General medical services": 353,
+        "Paramedic services": 125,
+        "Fire and rescue services": 116,
+        "Dental services": 111,
+        "Public health services": 103,
+        "Ophthalmic services": 24,
+        "Food Safety Promotion Board": 2
+      },
+      "2023-24": {
+        "Hospital services": 4988,
+        "Social care services": 1554,
+        "Pharmaceutical services": 509,
+        "Health support services": 490,
+        "General medical services": 364,
+        "Paramedic services": 135,
+        "Fire and rescue services": 126,
+        "Dental services": 110,
+        "Public health services": 106,
+        "Ophthalmic services": 26,
+        "Food Safety Promotion Board": 2
+      },
+      "2024-25": {
+        "Hospital services": 5271,
+        "Social care services": 1655,
+        "Pharmaceutical services": 509,
+        "General medical services": 420,
+        "Health support services": 355,
+        "Paramedic services": 133,
+        "Fire and rescue services": 133,
+        "Dental services": 118,
+        "Public health services": 107,
+        "Ophthalmic services": 26,
+        "Food Safety Promotion Board": 2
+      }
+    }
+  },
+  "de": {
+    "tree_data": {
+      "Delegated schools budgets": 1700,
+      "Education Authority grants": 1175,
+      "Capital": 339,
+      "Other": 270
+    },
+    "line_data": {
+      "2016-17": 2153,
+      "2017-18": 2148,
+      "2018-19": 2208,
+      "2019-20": 2309,
+      "2020-21": 2626,
+      "2021-22": 2709,
+      "2022-23": 2859,
+      "2023-24": 3154,
+      "2024-25": 3484
+    },
+    "bar_data": {
+      "2016-17": {
+        "Schools mainstream": 1916,
+        "Schools infrastructure": 194,
+        "Youth and other childrens services": 43
+      },
+      "2017-18": {
+        "Schools mainstream": 1936,
+        "Schools infrastructure": 169,
+        "Youth and other childrens services": 44
+      },
+      "2018-19": {
+        "Schools mainstream": 1994,
+        "Schools infrastructure": 163,
+        "Youth and other childrens services": 51
+      },
+      "2019-20": {
+        "Pre-school, primary school and post primary education": 1921,
+        "Activities to support education": 340,
+        "Youth and other childrens services": 49
+      },
+      "2020-21": {
+        "Pre-school, primary school and post primary education": 2196,
+        "Activities to support education": 384,
+        "Youth and other childrens services": 46
+      },
+      "2021-22": {
+        "Pre-school, primary school and post primary education": 2299,
+        "Activities to support education": 360,
+        "Youth and other childrens services": 50
+      },
+      "2022-23": {
+        "Delegated schools budgets": 1418,
+        "Education Authority grants": 906,
+        "Capital": 215,
+        "Education Authority and schools specific funds": 177,
+        "Other education services": 69,
+        "Youth and community relations": 41,
+        "Early years provision": 34
+      },
+      "2023-24": {
+        "Delegated schools budgets": 1577,
+        "Education Authority grants": 1051,
+        "Capital": 279,
+        "Education Authority and schools specific funds": 105,
+        "Other education services": 68,
+        "Youth and community relations": 40,
+        "Early years provision": 35
+      },
+      "2024-25": {
+        "Delegated schools budgets": 1700,
+        "Education Authority grants": 1175,
+        "Capital": 339,
+        "Education Authority and schools specific funds": 111,
+        "Other education services": 79,
+        "Youth and community relations": 43,
+        "Early years provision": 38
+      }
+    }
+  },
+  "dfi": {
+    "tree_data": {
+      "Water and sewerage": 506,
+      "Roads, rivers and waterways": 484,
+      "Bus, rail and ports": 446,
+      "Other": 17
+    },
+    "line_data": {
+      "2016-17": 791,
+      "2017-18": 816,
+      "2018-19": 925,
+      "2019-20": 909,
+      "2020-21": 1278,
+      "2021-22": 1326,
+      "2022-23": 1318,
+      "2023-24": 1457,
+      "2024-25": 1453
+    },
+    "bar_data": {
+      "2016-17": {
+        "Roads": 334,
+        "Water and sewerage": 252,
+        "Transport": 162,
+        "Rivers": 23,
+        "Road safety and policy": 10,
+        "Strategic planning and policy": 6,
+        "North South Body - Waterways Ireland": 4,
+        "Inland waterways": 0
+      },
+      "2017-18": {
+        "Roads and rivers": 356,
+        "Water and drainage": 280,
+        "Transport": 170,
+        "Planning": 6,
+        "North South Body - Waterways Ireland": 5
+      },
+      "2018-19": {
+        "Roads and rivers": 422,
+        "Water and drainage": 271,
+        "Transport": 221,
+        "Planning": 7,
+        "North South Body - Waterways Ireland": 5
+      },
+      "2019-20": {
+        "Roads, rivers and waterways": 437,
+        "Water and sewerage": 262,
+        "Bus, rail and ports": 186,
+        "Road safety services including Driver & Vehicle Agency": 14,
+        "Planning and legacy sites": 6,
+        "Waterways Ireland": 3
+      },
+      "2020-21": {
+        "Roads, rivers and waterways": 451,
+        "Bus, rail and ports": 433,
+        "Water and sewerage": 327,
+        "Road safety services including Driver & Vehicle Agency": 56,
+        "Planning and legacy sites": 7,
+        "Waterways Ireland": 5
+      },
+      "2021-22": {
+        "Roads, rivers and waterways": 477,
+        "Bus, rail and ports": 428,
+        "Water and sewerage": 372,
+        "Road safety services including Driver & Vehicle Agency": 37,
+        "Planning and legacy sites": 6,
+        "Waterways Ireland": 5
+      },
+      "2022-23": {
+        "Water and sewerage": 464,
+        "Roads, rivers and waterways": 439,
+        "Bus, rail and ports": 377,
+        "Road safety services including Driver & Vehicle Agency": 25,
+        "Planning and legacy sites": 8,
+        "Waterways Ireland": 5
+      },
+      "2023-24": {
+        "Water and sewerage": 512,
+        "Bus, rail and ports": 470,
+        "Roads, rivers and waterways": 450,
+        "Road safety services including Driver & Vehicle Agency": 12,
+        "Waterways Ireland": 7,
+        "Planning and legacy sites": 6
+      },
+      "2024-25": {
+        "Water and sewerage": 506,
+        "Roads, rivers and waterways": 484,
+        "Bus, rail and ports": 446,
+        "Waterways Ireland": 7,
+        "Planning and legacy sites": 6,
+        "Road safety services including Driver & Vehicle Agency": 3
+      }
+    }
+  },
+  "doj": {
+    "tree_data": {
+      "Police Service of NI": 925,
+      "Access to justice": 223,
+      "Reducing offending": 178,
+      "Safer communities": 93
+    },
+    "line_data": {
+      "2016-17": 1099,
+      "2017-18": 1081,
+      "2018-19": 1114,
+      "2019-20": 1160,
+      "2020-21": 1198,
+      "2021-22": 1253,
+      "2022-23": 1254,
+      "2023-24": 1348,
+      "2024-25": 1420
+    },
+    "bar_data": {
+      "2016-17": {
+        "Safer communities": 763,
+        "NI prison service": 112,
+        "Legal Services Agency NI": 92,
+        "NI Courts and Tribunals Service": 46,
+        "Youth Justice Agency": 20,
+        "Compensation services": 19,
+        "Probation Board for NI": 18,
+        "Access to justice": 12,
+        "Police Ombudsman NI": 9,
+        "NI Policing Board": 6,
+        "Forensic Science NI": 3,
+        "Criminal Justice Inspectorate": 1
+      },
+      "2017-18": {
+        "Police Service of NI": 720,
+        "Reducing offending": 150,
+        "Access to justice": 148,
+        "Safer communities": 63
+      },
+      "2018-19": {
+        "Police Service of NI": 740,
+        "Reducing offending": 158,
+        "Access to justice": 150,
+        "Safer communities": 67
+      },
+      "2019-20": {
+        "Police Service of NI": 794,
+        "Access to justice": 151,
+        "NI Prison Service and Youth Justice Agency": 144,
+        "Safer communities": 70
+      },
+      "2020-21": {
+        "Police Service of NI": 828,
+        "Access to justice": 152,
+        "NI Prison Service and Youth Justice Agency": 146,
+        "Safer communities": 72
+      },
+      "2021-22": {
+        "Police Service of NI": 855,
+        "Access to justice": 182,
+        "NI Prison Service and Youth Justice Agency": 142,
+        "Safer communities": 74
+      },
+      "2022-23": {
+        "Police Service of NI": 819,
+        "Access to justice": 194,
+        "NI Prison Service and Youth Justice Agency": 152,
+        "Safer communities": 89
+      },
+      "2023-24": {
+        "Police Service of NI": 884,
+        "Access to justice": 205,
+        "NI Prison Service and Youth Justice Agency": 168,
+        "Safer communities": 90
+      },
+      "2024-25": {
+        "Police Service of NI": 925,
+        "Access to justice": 223,
+        "Reducing offending": 178,
+        "Safer communities": 93
+      }
+    }
+  },
+  "dfc": {
+    "tree_data": {
+      "Welfare and employment": 416,
+      "Housing and regeneration": 395,
+      "Other": 122,
+      "Culture, arts, heritage and sport": 112,
+      "Housing benefit (rates element)": 82
+    },
+    "line_data": {
+      "2016-17": 920,
+      "2017-18": 914,
+      "2018-19": 985,
+      "2019-20": 953,
+      "2020-21": 1321,
+      "2021-22": 1224,
+      "2022-23": 1101,
+      "2023-24": 1096,
+      "2024-25": 1128
+    },
+    "bar_data": {
+      "2016-17": {
+        "Employment and social security": 487,
+        "Housing": 242,
+        "Culture, arts and leisure": 115,
+        "Community cohesion and regeneration": 55,
+        "Child maintenance service": 14,
+        "North South Language Body": 6
+      },
+      "2017-18": {
+        "Welfare, social inclusion and local government": 497,
+        "Housing": 245,
+        "Community cohesion": 138,
+        "Regeneration": 19,
+        "Child maintenance service": 10,
+        "North South Language Body": 6
+      },
+      "2018-19": {
+        "Welfare, social inclusion and local government": 534,
+        "Housing": 256,
+        "Community cohesion": 152,
+        "Regeneration": 27,
+        "Child maintenance service": 9,
+        "North South Language Body": 7
+      },
+      "2019-20": {
+        "Welfare and employment": 350,
+        "Housing and regeneration": 284,
+        "Housing benefit (rates element)": 107,
+        "Culture, arts and sport": 102,
+        "Local government": 55,
+        "Voluntary and community funding": 50,
+        "North South Language Body": 5
+      },
+      "2020-21": {
+        "Housing and regeneration": 420,
+        "Welfare and employment": 390,
+        "Culture, arts and sport": 152,
+        "Local government": 147,
+        "Voluntary and community funding": 104,
+        "Housing benefit (rates element)": 101,
+        "North South Language Body": 6
+      },
+      "2021-22": {
+        "Housing and regeneration": 426,
+        "Welfare and employment": 412,
+        "Culture, arts and sport": 128,
+        "Housing benefit (rates element)": 94,
+        "Local government": 83,
+        "Voluntary and community funding": 72,
+        "North South Language Body": 8
+      },
+      "2022-23": {
+        "Housing and regeneration": 400,
+        "Welfare and employment": 388,
+        "Culture, arts, heritage and sport": 110,
+        "Housing benefit (rates element)": 88,
+        "Local government": 53,
+        "Voluntary and community funding": 53,
+        "Languages": 9
+      },
+      "2023-24": {
+        "Welfare and employment": 403,
+        "Housing and regeneration": 378,
+        "Culture, arts, heritage and sport": 109,
+        "Housing benefit (rates element)": 88,
+        "Local government": 55,
+        "Voluntary and community funding": 54,
+        "Languages": 9
+      },
+      "2024-25": {
+        "Welfare and employment": 416,
+        "Housing and regeneration": 395,
+        "Culture, arts, heritage and sport": 112,
+        "Housing benefit (rates element)": 82,
+        "Voluntary and community funding": 57,
+        "Local government": 56,
+        "Languages": 9
+      }
+    }
+  },
+  "dfe": {
+    "tree_data": {
+      "Employment and skills": 423,
+      "Student support and higher education": 332,
+      "Economic and business development": 233,
+      "Other": 81
+    },
+    "line_data": {
+      "2016-17": 896,
+      "2017-18": 829,
+      "2018-19": 826,
+      "2019-20": 1097,
+      "2020-21": 1375,
+      "2021-22": 1208,
+      "2022-23": 1000,
+      "2023-24": 1012,
+      "2024-25": 1069
+    },
+    "bar_data": {
+      "2016-17": {
+        "Higher education, student support and postgraduate": 349,
+        "Employment and skills": 311,
+        "Invest NI and tourism": 167,
+        "Economic development and infrastructure": 35,
+        "Representation and regulatory services": 19,
+        "Tourism Ireland Ltd.": 12,
+        "InterTradeIreland": 3
+      },
+      "2017-18": {
+        "Higher education, student support and postgraduate": 344,
+        "Employment and skills": 288,
+        "Invest NI and tourism": 150,
+        "Economic development and infrastructure": 16,
+        "Representation and regulatory services": 15,
+        "Tourism Ireland Ltd.": 13,
+        "InterTradeIreland": 3
+      },
+      "2018-19": {
+        "Student support and higher education": 330,
+        "Employment and skills": 320,
+        "Invest NI and tourism": 130,
+        "Representation and regulatory services": 19,
+        "Tourism Ireland Ltd.": 14,
+        "Economic development and infrastructure": 7,
+        "InterTradeIreland": 5
+      },
+      "2019-20": {
+        "Economic and business development": 371,
+        "Employment and skills": 338,
+        "Student support and higher education": 325,
+        "Tourism": 24,
+        "Representation and regulatory services": 22,
+        "Tourism Ireland Ltd.": 13,
+        "InterTradeIreland": 3
+      },
+      "2020-21": {
+        "Economic and business development": 471,
+        "Student support and higher education": 424,
+        "Employment and skills": 404,
+        "Tourism": 35,
+        "Representation and regulatory services": 23,
+        "Tourism Ireland Ltd.": 14,
+        "InterTradeIreland": 6
+      },
+      "2021-22": {
+        "Student support and higher education": 372,
+        "Employment and skills": 365,
+        "Economic and business development": 362,
+        "Tourism": 53,
+        "Representation and regulatory services": 26,
+        "Tourism Ireland Ltd.": 23,
+        "InterTradeIreland": 7
+      },
+      "2022-23": {
+        "Employment and skills": 384,
+        "Student support and higher education": 341,
+        "Economic and business development": 192,
+        "Tourism": 45,
+        "Representation and regulatory services": 27,
+        "InterTradeIreland": 5,
+        "Tourism Ireland Ltd.": 5
+      },
+      "2023-24": {
+        "Employment and skills": 410,
+        "Student support and higher education": 319,
+        "Economic and business development": 205,
+        "Tourism": 39,
+        "Representation and regulatory services": 29,
+        "InterTradeIreland": 6,
+        "Tourism Ireland Ltd.": 5
+      },
+      "2024-25": {
+        "Employment and skills": 423,
+        "Student support and higher education": 332,
+        "Economic and business development": 233,
+        "Tourism": 44,
+        "Representation and regulatory services": 30,
+        "InterTradeIreland": 7,
+        "Tourism Ireland Ltd.": -0
+      }
+    }
+  },
+  "daera": {
+    "tree_data": {
+      "Food and farming": 488,
+      "Veterinary service and animal health": 112,
+      "Environment, marine and fisheries": 85,
+      "Other": 43
+    },
+    "line_data": {
+      "2016-17": 220,
+      "2017-18": 204,
+      "2018-19": 254,
+      "2019-20": 286,
+      "2020-21": 664,
+      "2021-22": 661,
+      "2022-23": 645,
+      "2023-24": 698,
+      "2024-25": 727
+    },
+    "bar_data": {
+      "2016-17": {
+        "European programmes and agricultural education": 76,
+        "Veterinary service": 50,
+        "Animal welfare, agrifood, research and fisheries": 45,
+        "Environment": 41,
+        "Forest Service Agency": 7,
+        "Foyle, Carlingford and Irish Lights Commission": 2
+      },
+      "2017-18": {
+        "Food and farming": 81,
+        "Veterinary service and animal health": 57,
+        "Environment, marine and fisheries": 44,
+        "Rural affairs": 13,
+        "Forest Service Agency": 6,
+        "Foyle, Carlingford and Irish Lights Commission": 2
+      },
+      "2018-19": {
+        "Food and farming": 119,
+        "Veterinary service and animal health": 57,
+        "Environment, marine and fisheries": 48,
+        "Rural affairs": 20,
+        "Forest Service Agency": 7,
+        "Foyle, Carlingford and Irish Lights Commission": 2
+      },
+      "2019-20": {
+        "Food and farming": 145,
+        "Veterinary service and animal health": 60,
+        "Environment, marine and fisheries": 55,
+        "Rural affairs": 18,
+        "Forestry": 6,
+        "Foyle, Carlingford and Irish Lights Commission": 2
+      },
+      "2020-21": {
+        "Food and farming": 461,
+        "Veterinary service and animal health": 82,
+        "Environment, marine and fisheries": 81,
+        "Rural affairs": 22,
+        "Forestry": 15,
+        "Foyle, Carlingford and Irish Lights Commission": 3
+      },
+      "2021-22": {
+        "Food and farming": 454,
+        "Veterinary service and animal health": 93,
+        "Environment, marine and fisheries": 73,
+        "Rural affairs": 25,
+        "Forestry": 13,
+        "Foyle, Carlingford and Irish Lights Commission": 3
+      },
+      "2022-23": {
+        "Food and farming": 442,
+        "Veterinary service and animal health": 96,
+        "Environment, marine and fisheries": 76,
+        "Rural affairs": 24,
+        "Forestry": 5,
+        "Foyle, Carlingford and Irish Lights Commission": 3
+      },
+      "2023-24": {
+        "Food and farming": 472,
+        "Veterinary service and animal health": 101,
+        "Environment, marine and fisheries": 87,
+        "Rural affairs": 17,
+        "Forestry": 16,
+        "Foyle, Carlingford and Irish Lights Commission": 3
+      },
+      "2024-25": {
+        "Food and farming": 488,
+        "Veterinary service and animal health": 112,
+        "Environment, marine and fisheries": 85,
+        "Rural affairs": 20,
+        "Forestry": 19,
+        "Foyle, Carlingford and Irish Lights Commission": 4
+      }
+    }
+  },
+  "dof": {
+    "tree_data": {
+      "NI Civil Service shared services": 84,
+      "Land and Property Services": 64,
+      "NI Civil Service accomodation services": 28,
+      "Finance, procurement and policy": 20,
+      "NI Statistics and Research Agency": 14,
+      "Other": 3
+    },
+    "line_data": {
+      "2016-17": 168,
+      "2017-18": 183,
+      "2018-19": 180,
+      "2019-20": 196,
+      "2020-21": 568,
+      "2021-22": 321,
+      "2022-23": 200,
+      "2023-24": 212,
+      "2024-25": 213
+    },
+    "bar_data": {
+      "2016-17": {
+        "NI Civil Service accomodation services": 69,
+        "NI Civil Service shared services": 53,
+        "Land and Property Services": 18,
+        "Finance and personnel policy and other services": 17,
+        "NI Statistics and Research Agency": 10,
+        "Special EU Programmes body": 1,
+        "EU programmes": 1
+      },
+      "2017-18": {
+        "NI Civil Service shared services": 69,
+        "NI Civil Service accomodation services": 64,
+        "Finance and personnel policy and other services": 19,
+        "Land and Property Services": 17,
+        "NI Statistics and Research Agency": 11,
+        "Special EU Programmes body": 3,
+        "EU programmes": -0
+      },
+      "2018-19": {
+        "NI Civil Service accomodation services": 68,
+        "NI Civil Service shared services": 67,
+        "Finance and personnel policy and other services": 19,
+        "NI Statistics and Research Agency": 13,
+        "Land and Property Services": 11,
+        "Special EU Programmes body": 1,
+        "EU programmes": 0
+      },
+      "2019-20": {
+        "NI Civil Service shared services": 83,
+        "NI Civil Service accomodation services": 52,
+        "Land and Property Services": 23,
+        "Finance and personnel policy and other services": 21,
+        "NI Statistics and Research Agency": 15,
+        "Special EU Programmes body": 1,
+        "EU programmes": 1
+      },
+      "2020-21": {
+        "Land and Property Services": 399,
+        "NI Civil Service shared services": 77,
+        "NI Civil Service accomodation services": 39,
+        "Finance and personnel policy and other services": 30,
+        "NI Statistics and Research Agency": 21,
+        "Special EU Programmes body": 2,
+        "EU programmes": 0
+      },
+      "2021-22": {
+        "Land and Property Services": 144,
+        "NI Civil Service shared services": 73,
+        "NI Civil Service accomodation services": 60,
+        "Finance, procurement and policy": 21,
+        "NI Statistics and Research Agency": 19,
+        "Special EU Programmes body": 2,
+        "EU programmes": 1
+      },
+      "2022-23": {
+        "NI Civil Service shared services": 75,
+        "NI Civil Service accomodation services": 42,
+        "Land and Property Services": 42,
+        "Finance, procurement and policy": 23,
+        "NI Statistics and Research Agency": 15,
+        "Special EU Programmes body": 2,
+        "EU programmes": 1
+      },
+      "2023-24": {
+        "NI Civil Service shared services": 78,
+        "Land and Property Services": 50,
+        "NI Civil Service accomodation services": 42,
+        "Finance, procurement and policy": 22,
+        "NI Statistics and Research Agency": 17,
+        "Special EU Programmes body": 2,
+        "EU programmes": 1
+      },
+      "2024-25": {
+        "NI Civil Service shared services": 84,
+        "Land and Property Services": 64,
+        "NI Civil Service accomodation services": 28,
+        "Finance, procurement and policy": 20,
+        "NI Statistics and Research Agency": 14,
+        "EU programmes": 1,
+        "Special EU Programmes body": 1
+      }
+    }
+  },
+  "teo": {
+    "tree_data": {
+      "Executive support": 195,
+      "Good relations": 13,
+      "Other": 3
+    },
+    "line_data": {
+      "2016-17": 94,
+      "2017-18": 137,
+      "2018-19": 87,
+      "2019-20": 113,
+      "2020-21": 215,
+      "2021-22": 158,
+      "2022-23": 211,
+      "2023-24": 175,
+      "2024-25": 211
+    },
+    "bar_data": {
+      "2016-17": {
+        "Executive support and policy development": 94
+      },
+      "2017-18": {
+        "Executive support and policy development": 137
+      },
+      "2018-19": {
+        "Executive support and policy development": 87
+      },
+      "2019-20": {
+        "Executive support": 84,
+        "Good relations": 26,
+        "North South Ministerial Council": 2,
+        "Attorney General for NI": 1
+      },
+      "2020-21": {
+        "Executive support": 191,
+        "Good relations": 22,
+        "Attorney General for NI": 1,
+        "North South Ministerial Council": 1
+      },
+      "2021-22": {
+        "Executive support": 135,
+        "Good relations": 21,
+        "Attorney General for NI": 1,
+        "North South Ministerial Council": 1
+      },
+      "2022-23": {
+        "Executive support": 193,
+        "Good relations": 16,
+        "Attorney General for NI": 1,
+        "North South Ministerial Council": 1
+      },
+      "2023-24": {
+        "Executive support": 160,
+        "Good relations": 12,
+        "Attorney General for NI": 2,
+        "North South Ministerial Council": 1
+      },
+      "2024-25": {
+        "Executive support": 195,
+        "Good relations": 13,
+        "Attorney General for NI": 2,
+        "North South Ministerial Council": 1
+      }
+    }
+  },
+  "other": {
+    "bar_data": {
+      "2016-17": {
+        "NI Assembly": 38,
+        "Public Prosecution Service": 34,
+        "Food Standards Agency": 8,
+        "NI Audit Office": 8,
+        "NI Public Services Ombudsman": 2,
+        "NI Authority for Utility Regulation": 0
+      },
+      "2017-18": {
+        "Public Prosecution Service": 33,
+        "NI Assembly": 32,
+        "Food Standards Agency": 8,
+        "NI Audit Office": 7,
+        "NI Public Services Ombudsman": 2,
+        "NI Authority for Utility Regulation": 0
+      },
+      "2018-19": {
+        "Public Prosecution Service": 33,
+        "NI Assembly": 31,
+        "Food Standards Agency": 8,
+        "NI Audit Office": 7,
+        "NI Public Services Ombudsman": 3,
+        "NI Authority for Utility Regulation": 0
+      },
+      "2019-20": {
+        "Public Prosecution Service": 35,
+        "NI Assembly": 32,
+        "Food Standards Agency": 10,
+        "NI Audit Office": 7,
+        "NI Public Services Ombudsman": 3,
+        "NI Authority for Utility Regulation": 0
+      },
+      "2020-21": {
+        "NI Assembly": 40,
+        "Public Prosecution Service": 35,
+        "Food Standards Agency": 11,
+        "NI Audit Office": 8,
+        "NI Public Services Ombudsman": 3,
+        "NI Authority for Utility Regulation": 0
+      },
+      "2021-22": {
+        "NI Assembly": 42,
+        "Public Prosecution Service": 37,
+        "Food Standards Agency": 13,
+        "NI Audit Office": 11,
+        "NI Public Services Ombudsman": 4,
+        "NI Authority for Utility Regulation": 0
+      },
+      "2022-23": {
+        "Administration and support services": 45,
+        "Public prosecution and legal services": 38,
+        "Public health protection from food and feed risk": 15,
+        "Audit and assurance services": 10,
+        "Investigation and adjudication": 4,
+        "Utility regulation": 0
+      },
+      "2023-24": {
+        "Administration and support services": 46,
+        "Public prosecution and legal services": 40,
+        "Public health protection from food and feed risk": 15,
+        "Audit and assurance services": 8,
+        "Investigation and adjudication": 4,
+        "Utility regulation": 0
+      },
+      "2024-25": {
+        "Administration and support services": 49,
+        "Public prosecution and legal services": 41,
+        "Public health protection from food and feed risk": 16,
+        "Audit and assurance services": 9,
+        "Investigation and adjudication": 4,
+        "Utility regulation": 0
+      }
+    },
+    "recent_spend": 120
+  }
+}
