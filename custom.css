@@ -7,7 +7,7 @@ body {
 	margin: auto;
 }
 
-section .row, header .row, main .row, .footer-container .row {
+section .row, header .row, .footer-container .row {
     width: 960px;
 }
 
@@ -161,18 +161,21 @@ li.footer2 {
 	display:block;
 }
 
+
 a:link, a:visited, a:active {
 	color: #326baf !important;
-	text-decoration: none;
+	text-decoration: underline 1px;
 }
 
 .accordion-button-title {
 	margin-right:10px;
 	font-weight:bold !important;
 }
-a:hover {
+
+
+ a:hover {
 	text-decoration:underline;
-}
+} 
 
 .warning a {
 	color:#FFFFFF !important;
@@ -526,55 +529,111 @@ xcanvas {
 	position: relative !important;	
 }
 
-.nisrafooter ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-	font-size: 18px;
-	font-weight:700;
+/* UL has the class */
+ul.nisrafooter {
+  list-style: none;        /* no bullets */
+  padding-left: 32px;      /* classic indent restored */
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;                /* space between items */
+
+  font-size: 18px;
+  font-weight: 400;
+
+  color: #fff;             /* make text (and links via inherit) white */
 }
 
+/* Ensure LIs don’t show markers in stubborn browsers */
+ul.nisrafooter > li { list-style: none; margin: 0; }
 
-.nisrafooter li {
-	margin-right: 18px;
-    display: inline-block;
-	color: #FFFFFF;
-	font-size: 18px;
+/* make links white in all states, beating globals */
+ul.nisrafooter > li > a:link,
+ul.nisrafooter > li > a:visited,
+ul.nisrafooter > li > a:active {
+  color: #fff !important;  /* hard override */
+  text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
-.nisrafooter a {
-	color: #FFFFFF !important;
+/* Hover: revert to default (font-relative) thickness */
+ul.nisrafooter > li > a:hover {
+  text-decoration-thickness: auto; /* or: from-font */
 }
 
 .cc-li a {
 	color: #FFFFFF !important;
 }
 
-.flex-list-footer {
-	position: relative;
-    margin: 0em; /* T R B L */
-	display:block;
-    overflow: hidden;
+/* Footer UL: horizontal, no bullets, white text */
+.flex-list-footer ul.cc-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+
+  list-style: none;   /* no bullets */
+  margin: 0;
+  padding: 1rem;
+
+  color: #fff;        /* base text color */
+  font-weight: 400;   /* not bold */
+  gap: 0;             /* no extra gaps; adjust if you want */
 }
 
-.flex-list-footer li {
-	list-style-type: none;
+/* LI: remove any dividers/pseudo separators */
+.flex-list-footer ul.cc-list > li {
+  margin: 0.25em 0;
+  padding: 0 1em;
+  text-align: center;
+  background-color: #00205b;
+  font-size: 14px;
+
+  border: 0 !important;           /* ← removes the "|" divider if it came from borders */
+}
+.flex-list-footer ul.cc-list > li::before,
+.flex-list-footer ul.cc-list > li::after {
+  content: none !important;        /* ← kills any pseudo-element separators */
 }
 
-.cc-li {
-	flex-grow: 1;
-    flex-basis: auto;
-    margin: 0.25em 0;
-    padding: 0 1em;
-    text-align: center;
-    border-left: 1px solid #ccc;
-    background-color: #00205b;
-    font-size: 14px;
+/* LINKS — force white and control underline */
+.flex-list-footer ul.cc-list > li a:link,
+.flex-list-footer ul.cc-list > li a:visited,
+.flex-list-footer ul.cc-list > li a:active {
+  color: #fff !important;          /* ← beats framework blue */
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;  /* thin by default */
+  text-underline-offset: 2px;
+  border-bottom: none !important;  /* in case a border-bottom is used as underline */
 }
+
+/* LINKS — thicker underline on hover */
+.flex-list-footer ul.cc-list > li a:hover {
+  color: #fff !important;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;  /* reliably thicker on hover */
+  /* If you prefer font-relative thickness instead of fixed 2px, use:
+     text-decoration-thickness: from-font; */
+}
+
+/* Kill bullets and the left indent, with extra specificity */
+.flex-list-footer ul {
+  list-style: none !important;  /* no bullets */
+  margin: 0;
+  padding: 0;                   /* remove indent */
+}
+
+/* Belt-and-braces: ensure items don't render markers */
+.flex-list-footer ul.cc-list > li {
+  list-style: none !important;
+}
+
+/* Some frameworks use ::marker — neutralize it */
+.flex-list-footer ul.cc-list > li::marker {
+  content: "";
+}
+
 
 button a:link, button a:visited, button a:active {
 	color: white !important;
@@ -662,4 +721,30 @@ a.cookiesbarlink {
 
 .badge {
 	border: 0px;
+}
+
+/*******************************/
+/*******************************/
+/*opens in new window/tab icon*/
+/*******************************/
+/*******************************/
+
+ main a[target="_blank"]::after {
+  content: "";
+  width: 14px; height: 11px;
+  margin: 5px; vertical-align: text-bottom; display: inline-block;
+
+  /* Use the SVG as a mask; then color it with Bootstrap’s variable */
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11"><g fill="none" stroke="%23000" stroke-width="1"><path d="M0 3h2V0h12v8h-2v3H0zm13-2H3v6h10zM2 4H1v4h1zm-1 6h10V8H1z"/></g></svg>') no-repeat center / contain;
+          mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11"><g fill="none" stroke="%23000" stroke-width="1"><path d="M0 3h2V0h12v8h-2v3H0zm13-2H3v6h10zM2 4H1v4h1zm-1 6h10V8H1z"/></g></svg>') no-repeat center / contain;
+  background-color: var(--bs-secondary-color, #6c757d); /* follows Bootstrap’s text-secondary */
+}
+
+footer a[target="_blank"]::after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11"><g fill="none" stroke="white" stroke-width="1"><path d="M0 3h2V0h12v8h-2v3H0zm13-2H3v6h10zM2 4H1v4h1zm-1 6h10V8H1z"/></g></svg>');
+  display: inline-block;
+  width: 14px;
+  height: 11px;
+  margin: 0 5px 0 5px;
+  vertical-align: text-top;
 }

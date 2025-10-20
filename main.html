@@ -65,13 +65,14 @@
         <div class="container" style="padding-bottom: 5px;">
           <div class="row tint-row" style="width:100%">
          
-          <div class="col" style="padding-right:0px;"><a href="https://www.nisra.gov.uk/" target="_blank" rel="noopener noreferrer"><img src="nisra-logo-x1.png" style="width: 100%; max-width: 429px; min-width: 340px; height: auto;"></a></div>
-          <div class="col" style="padding-left:0px;"><a href="https://www.finance-ni.gov.uk/" target="_blank" rel="noopener noreferrer"><img src="dof-logo.png" style="float:right; width: 100%; max-width: 405px; min-width: 340px; height: auto;"></a></div>
+          <div class="col" style="padding-right:0px;"><a href="https://www.nisra.gov.uk/" target="_blank" rel="noopener noreferrer"><img src="nisra-logo-x1.png" alt="NISRA logo" style="width: 100%; max-width: 429px; min-width: 340px; height: auto;"></a></div>
+          <div class="col" style="padding-left:0px;"><a href="https://www.finance-ni.gov.uk/" target="_blank" rel="noopener noreferrer"><img src="dof-logo.png" alt="Department of Finance logo" style="float:right; width: 100%; max-width: 405px; min-width: 340px; height: auto;"></a></div>
         </div>
         </div>
       </div>
 
     </header>
+    <main>
     <div class="container">
       <div class="row">
         <div class="col-6 text-big" style="font-size:x-large;">
@@ -97,7 +98,7 @@
             <div class="col-sm-12" style="padding-bottom:20px;">
               <div class="card" style="width: 100%;">
                 <div style="overflow: hidden;" id="money-banner">
-                  <img src="ni-money-slim.jpg" width="100%">
+                  <img src="ni-money-slim.jpg" alt="Various bank notes from Northern Ireland" width="100%">
                 </div>
                 <div class="card-body" style="border-bottom:2px;">
                   <div class="row">
@@ -158,7 +159,8 @@
                         <div class="blocktitle" style="margin: 0;  width: 100%; font-weight: normal; ">
                           <h3 style="font-weight: normal;">What is included</h3>
                           <span class="badge text-bg-success" style="padding-top: 5px; padding-bottom: 5px; background-color: rgb(25, 135, 84, 0.1) !important; color: rgb(25, 135, 84, 1.0) !important;">Includes spending on</span>
-                          <div id="whatIsIncluded"></div>
+                          <ul id="whatIsIncluded"
+                          style="margin:6px 0 0 0; padding-left:1.25rem; font-size:0.75rem; list-style:square; font-weight:400;"> </ul>
                         </div>
                       </div>
                       <div class="row">
@@ -167,8 +169,10 @@
                           <span class="badge text-bg-danger" style="margin-top:10px; background-color: rgb(220, 53, 69,0.1) !important; color: rgb(220, 53, 69,1.0) !important;">
                             Does not include spending by
                           </span>
-                          <li style="font-size: 0.75rem; list-style-type: square;">Local councils</li>
-                          <li style="font-size: 0.75rem; list-style-type: square;">Public corporations</li>
+                          <ul style="margin:6px 0 0 0; padding-left:1.25rem; font-size:0.75rem; list-style:square; font-weight:700;">
+                          <li>Local councils</li>
+                          <li>Public corporations</li>
+                         </ul>
                         </div>
                       </div>
 
@@ -185,7 +189,7 @@
               <div class="col-sm-6" style="padding-bottom:20px;">
              
               <div class="card" style="width: 100%;">
-                <img src="stormont-veve-pixabay-content-license-no-attr.jpg" class="card-img-top" alt="placeholder1" style = "  opacity: 0.5">
+                <img src="stormont-veve-pixabay-content-license-no-attr.jpg" alt="Stormont building" class="card-img-top" alt="placeholder1" style = "  opacity: 0.5">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm-12">
@@ -231,7 +235,7 @@
           
             <div class="col-sm-6" style="padding-bottom:20px;">
               <div class="card" style="width: 100%;">
-                <img src="belfast-street-1.png" class="card-img-top" alt="placeholder1" style = "  opacity: 0.5">
+                <img src="belfast-street-1.png" alt="A busy high street" class="card-img-top" alt="placeholder1" style = "  opacity: 0.5">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm-12">
@@ -539,7 +543,7 @@
                     </div>
                   </div>
                   <div class="col" style="margin:0px; padding:0px;">
-                    <span id = "overall_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total <span class = "spend-type"></span>spend (£m)</span>
+                    <span id = "overall_y_label" style="font-size:15px; font-family:Helvetica; color: #000;">Total <span class = "spend-type"></span>spend (£m)</span>
                       
                       <canvas id ="overall_line_chart" style="width:100%;"></canvas>
                       <div class = "buttonBox">
@@ -599,7 +603,7 @@
             <div class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseAME" aria-expanded="false" aria-controls="collapseAME">
-                <img src="nics-logo-hex-2.png" alt="logo" height="40" class="accordion-dept-logo"> <h2><span class="accordion-button-title">Benefits and pensions (Annually Managed Expenditure/AME)</span></h2></button>
+                <img src="nics-logo-hex-2.png" alt="NICS logo" height="40" class="accordion-dept-logo"> <h2><span class="accordion-button-title">Benefits and pensions (Annually Managed Expenditure/AME)</span></h2></button>
               </button>
             </div>
             <div id="collapseAME" class="accordion-collapse collapse">
@@ -630,7 +634,7 @@
 
                 <h3 id = "ame_header">Annually managed expenditure (i.e. benefits and pensions) <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></span></h3>
                   <br>
-                  <span id = "ame_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total <span class = "spend-type"></span>Spend (£m)</span>
+                  <span id = "ame_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total <span class = "spend-type"></span>Spend (£m)</span>
                   
                     <canvas id="ame_line_chart" style="width:100%;"></canvas>
                     <div class = "buttonBox">
@@ -686,7 +690,7 @@
             <div class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseDoH" aria-expanded="false" aria-controls="collapseDoH">
-                <img src="doh-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Health (DoH)</span></h2></button>
+                <img src="doh-logo-hex.png" alt="Department of Health logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Health (DoH)</span></h2></button>
               </button>
             </div>
             <div id="collapseDoH" class="accordion-collapse collapse">
@@ -725,7 +729,7 @@
                 
                   <h3 id = "doh_header">Health <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                   <br>
-                  <span id = "doh_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                  <span id = "doh_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                   
                     <canvas id="doh_line_chart" style="width:100%;"></canvas>
                     <div class = "buttonBox">
@@ -777,7 +781,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseDE" aria-expanded="false" aria-controls="collapseDE">
-                  <img src="doe-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Education (DE)</span></h2></button>
+                  <img src="doe-logo-hex.png" alt="Department of Education logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Education (DE)</span></h2></button>
                 </button>
               </div>
               <div id="collapseDE" class="accordion-collapse collapse">
@@ -819,7 +823,7 @@
                       
 
 
-                      <span id = "de_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                      <span id = "de_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                       
                         <canvas id="de_line_chart" style="width:100%;"></canvas>
                       
@@ -872,7 +876,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseDfI" aria-expanded="false" aria-controls="collapseDfI">
-                  <img src="dfi-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Infrastructure (DfI)</span></h2></button>
+                  <img src="dfi-logo-hex.png" alt="Department for Infrastructure logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Infrastructure (DfI)</span></h2></button>
               </div>
               <div id="collapseDfI" class="accordion-collapse collapse">
                 <div class="accordion-body">
@@ -907,7 +911,7 @@
 
                       <h3 id = "dfi_header">Infrastructure <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                       <br><br>
-                      <span id = "dfi_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                      <span id = "dfi_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                       
                         <canvas id="dfi_line_chart" style="width:100%;"></canvas>
                         <div class = "buttonBox">
@@ -962,7 +966,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseDoJ" aria-expanded="false" aria-controls="collapseDoJ">
-                  <img src="doj-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Justice (DoJ)</span></h2></button>
+                  <img src="doj-logo-hex.png" alt="Department of Justice logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Justice (DoJ)</span></h2></button>
               </div>
               <div id="collapseDoJ" class="accordion-collapse collapse">
                 <div class="accordion-body">
@@ -998,7 +1002,7 @@
 
                       <h3 id = "doj_header">Justice <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                       <br><br>
-                      <span id = "doj_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                      <span id = "doj_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                       
                         <canvas id="doj_line_chart" style="width:100%;"></canvas>
                         <div class = "buttonBox">
@@ -1052,7 +1056,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseDfC" aria-expanded="false" aria-controls="collapseDfC">
-                  <img src="dfc-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Communities (DfC)</span></h2></button>
+                  <img src="dfc-logo-hex.png" alt="Department for Communities logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Communities (DfC)</span></h2></button>
               </div>
               <div id="collapseDfC" class="accordion-collapse collapse">
                 <div class="accordion-body">
@@ -1096,7 +1100,7 @@
     
                     <h3 id = "dfc_header">Communities <span class = "spend-type"></span><span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                     <br><br>
-                    <span id = "dfc_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                    <span id = "dfc_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                     
                       <canvas id="dfc_line_chart" style="width:100%;"></canvas>
 
@@ -1154,7 +1158,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseDfE" aria-expanded="false" aria-controls="collapseDfE">
-                  <img src="dfe-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Economy (DfE)</span></h2></button>
+                  <img src="dfe-logo-hex.png" alt="Department for Economy logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Economy (DfE)</span></h2></button>
               </div>
               <div id="collapseDfE" class="accordion-collapse collapse">
                 <div class="accordion-body">
@@ -1191,7 +1195,7 @@
 
                       <h3 id = "dfe_header">Economy <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                       <br><br>
-                      <span id = "dfe_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                      <span id = "dfe_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                       
                         <canvas id="dfe_line_chart" style="width:100%;"></canvas>
                         <div class = "buttonBox">
@@ -1251,7 +1255,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseDAERA" aria-expanded="false" aria-controls="collapseDAERA">
-                  <img src="daera-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Agriculture, Environment and Rural Affairs (DAERA)</span></button></h2>
+                  <img src="daera-logo-hex.png" alt="Department of Agriculture, Environment and Rural Affairs logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Agriculture, Environment and Rural Affairs (DAERA)</span></button></h2>
               </div>
               <div id="collapseDAERA" class="accordion-collapse collapse">
                 <div class="accordion-body">
@@ -1290,7 +1294,7 @@
 
                       <h3 id = "daera_header">Agriculture, Environment and Rural Affairs <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                       <br><br>
-                      <span id = "daera_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                      <span id = "daera_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                       
                         <canvas id="daera_line_chart" style="width:100%;"></canvas>
                         <div class = "buttonBox">
@@ -1342,7 +1346,7 @@
                   <div class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapseDoF" aria-expanded="false" aria-controls="collapseDoF">
-                      <img src="dof-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Finance (DoF)</span>
+                      <img src="dof-logo-hex.png" alt="Department of Finance logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">Finance (DoF)</span>
                       </h2></button>
                   </div>
                   <div id="collapseDoF" class="accordion-collapse collapse">
@@ -1381,7 +1385,7 @@
     
                           <h3 id = "dof_header">Finance <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                           <br><br>
-                          <span id = "dof_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                          <span id = "dof_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                           
                             <canvas id="dof_line_chart" style="width:100%;"></canvas>
                             <div class = "buttonBox">
@@ -1434,7 +1438,7 @@
               <div class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTEO" aria-expanded="false" aria-controls="collapseTEO">
-                  <img src="teo-logo-hex.png" alt="logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">The Executive Office (TEO)</span></h2></button>
+                  <img src="teo-logo-hex.png" alt="The Executive Office logo" height="40" class="accordion-dept-logo"><h2><span class="accordion-button-title">The Executive Office (TEO)</span></h2></button>
                   </div>
               <div id="collapseTEO" class="accordion-collapse collapse">
                 <div class="accordion-body">
@@ -1473,7 +1477,7 @@
 
                       <h3 id = "teo_header">Executive Office <span class = "spend-type"></span>spending <span class="first_year_value"></span> to <span class="current_year_value"></h3>
                       <br><br>
-                      <span id = "teo_y_label" style="font-size:15px; font-family:Helvetica; color:grey;">Total Spend (£m)</span>
+                      <span id = "teo_y_label" style="font-size:15px; font-family:Helvetica; color:#000;">Total Spend (£m)</span>
                       
                         <canvas id="teo_line_chart" style="width:100%;"></canvas>
                         <div class = "buttonBox">
@@ -1725,9 +1729,10 @@
         </div>
       </div> -->
 
-      <img src = "budget-sustainability-plan-web-graphic-1080.jpg" class = "img-fluid" style = "margin-top: 20px;">
+      <img src = "budget-sustainability-plan-web-graphic-1080.jpg" alt="A banner with the NISRA logo stating: Developed to support the Department of Finance Budget Sustainability Plan" class = "img-fluid" style = "margin-top: 20px;">
 
     </div>
+    </main>
 
       <footer style="color: rgb(255, 255, 255); background-color: rgb(0, 32, 91);">
         <div class="container">
@@ -1735,27 +1740,21 @@
           <div class="col" style="padding: 20px 20px 0px 20px;">
           <h3 style="padding-left:32px;font-weight:700;font-size:18px;">Links</h3><br> 
           <ul class="nisrafooter">
-            <li class="nisrafooter">
-              <a href="https://data.nisra.gov.uk/" style="color: rgb(255, 255, 255);">NISRA Data Portal</a></li>
-              <br> 
-              <li class="nisrafooter"><a href="https://www.opendatani.gov.uk/" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">OpenDataNI</a></li>
-              <br> 
-              <li class="nisrafooter"><a href="https://www.nidirect.gov.uk" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">NIDirect</a></li>
-              <br> 
-              <li class="nisrafooter"><a href="https://www.gov.uk/" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">GOV.UK</a></li>
-              <br>
-            </ul>
+             <li><a href="https://data.nisra.gov.uk/" target="_blank" rel="noopener noreferrer">NISRA Data Portal</a></li>
+             <li><a href="https://data.nisra.gov.uk/" target="_blank" rel="noopener noreferrer">Census Flexible Table Builder</a></li>
+             <li><a href="https://www.opendatani.gov.uk/" target="_blank" rel="noopener noreferrer">OpenDataNI</a></li>
+             <li><a href="https://www.nidirect.gov.uk" target="_blank" rel="noopener noreferrer">NIDirect</a></li>
+             <li><a href="https://www.gov.uk/" target="_blank" rel="noopener noreferrer">GOV.UK</a></li>
+          </ul>
           </div> 
           <div class="col" style="padding: 20px 20px 0px 20px;">
             <h3 style="padding-left:32px;font-weight:700;font-size:18px;">Follow NISRA</h3>
             <br> 
             <ul class="nisrafooter">
-              <li class="nisrafooter"><a href="https://www.facebook.com/nisra.gov.uk" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-              <br> 
-              <li class="nisrafooter"><a href="https://x.com/NISRA" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">X</a></li>
-              <br> 
-              <li class="nisrafooter"><a href="https://www.youtube.com/user/nisrastats" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-              <br>
+              <li><a href="https://www.facebook.com/nisra.gov.uk" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li><a href="https://x.com/NISRA" target="_blank"  rel="noopener noreferrer">X</a></li>
+              <li><a href="https://www.youtube.com/user/nisrastats" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              <li><a href="https://www.linkedin.com/company/northern-ireland-statistics-and-research-agency/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
           </div>
           <div class="col" style="padding: 20px 20px 0px 20px;">
@@ -1763,14 +1762,14 @@
           </div>
         </div> 
         <div class="flex-list-footer">
-          <ul style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;margin-left: -1px;">
-            <li class="cc-li" style="border-left:0px;">© Crown Copyright</li> 
-            <li class="cc-li"><a href="https://www.nisra.gov.uk/contact" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">Contact us</a></li> 
-            <li class="cc-li"><a href="https://www.nisra.gov.uk/terms-and-conditions" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">Terms and conditions</a></li> 
-            <li class="cc-li"><a href="https://www.nisra.gov.uk/cookies" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">Cookies</a></li> 
-            <li class="cc-li"><a href="https://www.nisra.gov.uk/nisra-privacy-notice" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">Privacy</a></li> 
-            <li class="cc-li"><a href="https://www.nisra.gov.uk/accessibility-statement-nisra" style="color: rgb(255, 255, 255);" target="_blank" rel="noopener noreferrer">Accessibility Statement</a></li>
-          </ul>
+          <ul class="cc-list">
+          <li>© Crown Copyright</li>
+          <li><a href="https://www.nisra.gov.uk/contact" target="_blank" rel="noopener noreferrer">Contact us</a></li>
+          <li><a href="https://www.nisra.gov.uk/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and conditions</a></li>
+          <li><a href="https://www.nisra.gov.uk/cookies" target="_blank" rel="noopener noreferrer">Cookies</a></li>
+          <li><a href="https://www.nisra.gov.uk/nisra-privacy-notice" target="_blank" rel="noopener noreferrer">Privacy</a></li>
+          <li><a href="https://www.nisra.gov.uk/accessibility-statement-nisra" target="_blank" rel="noopener noreferrer">Accessibility Statement</a></li>
+        </ul>
         </div>
       </div>
     </div>

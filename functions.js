@@ -219,7 +219,9 @@ function set_line_options(dep) {
     y: {
       suggestedMin: 0,                                          // y axis always starts at 0
       grid: { display: false },                                 // y axis grid not displayed
-      ticks: {callback: function (label) {                      
+      ticks: {
+        color: '#000',
+        callback: function (label) {                      
         return '£' + Number(label).toLocaleString('en') + 'm';   // y axis labels formatted with £ sign and millions units
       }}
     },
@@ -227,7 +229,11 @@ function set_line_options(dep) {
          offset: true,                      // extra space is added to the both edges and the axis is scaled to fit into the chart area 
          title: {
            display: true,                    // x axis title is displayed
-           text: 'Year of spend'             // text is set
+           text: 'Year of spend',             // text is set
+           color: '#000'
+         },
+         ticks: {
+          color: '#000'
          }
     }
   },
@@ -316,7 +322,9 @@ function set_line_options(dep) {
     plugins: {
            legend: {
             onClick: null,
-            labels: {boxWidth: 0   }  },
+            labels: {
+              color: '#000', //change tree map title colour
+              boxWidth: 0   }  },
                     tooltip: {
          enabled: false
       },
@@ -797,19 +805,22 @@ function set_bar_options (dep) {
       y: {
         grid: { display: false },     // Grid lines are turned off for the y axis
         ticks: {
-          autoSkip: false             // No tickmarks are skipped
+          autoSkip: false,             // No tickmarks are skipped
+          color: '#000'
         }
       },
       x: { offset: false,            // ensures no extra space added to the left edge of the x axis 
           title: {
             display: true,          // Display a title on the x axis
-            text: 'Total spend'     // Set title text
+            text: 'Total spend',     // Set title text
+            color: '#000'
           } ,
           
         ticks: {
           callback: function(label, index, labels) {
             return '£' + Number(label).toLocaleString('en') + 'm';   // Adds £ sign and millions units to x axis labels
           },
+          color: '#000',
           autoSkip: true,             // Will skip some ticks if labels become too crowded
           maxRotation: 0,             // Block rotation of tick labels
           minRotation: 0
