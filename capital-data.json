@@ -1,5 +1,5 @@
 {
-  "_metadata": ["Data for NI Executive webpage", "updated on 05/09/2025 10:01:21", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
+  "_metadata": ["Data for NI Executive webpage", "updated on 29/01/2026 13:29:44", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
   "overall": {
     "spend": 2.9,
     "spend_pp": 1500,
@@ -622,7 +622,7 @@
         "Environment, marine and fisheries": 22,
         "Veterinary service and animal health": 7,
         "Rural affairs": 7,
-        "Forestry": 1,
+        "Forestry": 2,
         "Foyle, Carlingford and Irish Lights Commission": 1
       }
     }

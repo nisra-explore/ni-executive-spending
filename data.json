@@ -1,18 +1,18 @@
 {
-  "_metadata": ["Data for NI Executive webpage", "updated on 05/09/2025 10:01:23", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
+  "_metadata": ["Data for NI Executive webpage", "updated on 29/01/2026 13:29:46", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
   "overall": {
-    "spend": 32,
-    "spend_pp": 16600,
+    "spend": 31.8,
+    "spend_pp": 16500,
     "population": 1928000,
     "tree_data": {
-      "Benefits and pensions (AME)": 13399,
+      "Benefits and pensions (AME)": 13295,
       "Health": 8729,
       "Education": 3484,
       "Infrastructure": 1453,
       "Justice": 1420,
       "Communities": 1128,
-      "Economy": 1069,
-      "DAERA": 727,
+      "Economy": 1065,
+      "DAERA": 728,
       "Finance": 213,
       "TEO": 211
     },
@@ -25,7 +25,7 @@
       "2021-22": 27186,
       "2022-23": 27963,
       "2023-24": 29336,
-      "2024-25": 31951
+      "2024-25": 31844
     },
     "line_data_per_person": {
       "2016-17": 10600,
@@ -36,22 +36,22 @@
       "2021-22": 14300,
       "2022-23": 14600,
       "2023-24": 15300,
-      "2024-25": 16600
+      "2024-25": 16500
     }
   },
   "del": {
-    "spend": 18.6,
+    "spend": 18.5,
     "spend_pp": 9600
   },
   "ame": {
-    "spend": 13.4,
-    "spend_pp": 7000,
+    "spend": 13.3,
+    "spend_pp": 6900,
     "tree_data": {
       "Pension and other related benefits": 3738,
       "Working age benefits": 2898,
-      "Other": 2807,
+      "Other": 2843,
       "Disability benefits": 2678,
-      "Health and Social Care pensions": 873,
+      "Health and Social Care pensions": 732,
       "Housing": 406
     },
     "line_data": {
@@ -63,7 +63,7 @@
       "2021-22": 10841,
       "2022-23": 11585,
       "2023-24": 11663,
-      "2024-25": 13399
+      "2024-25": 13295
     },
     "bar_data": {
       "2016-17": {
@@ -124,9 +124,9 @@
       "2024-25": {
         "Pension and other related benefits": 3738,
         "Working age benefits": 2898,
-        "Other": 2807,
+        "Other": 2843,
         "Disability benefits": 2678,
-        "Health and Social Care pensions": 873,
+        "Health and Social Care pensions": 732,
         "Housing": 406
       }
     }
@@ -441,7 +441,7 @@
   },
   "doj": {
     "tree_data": {
-      "Police Service of NI": 925,
+      "Police Service of NI": 926,
       "Access to justice": 223,
       "Reducing offending": 178,
       "Safer communities": 93
@@ -515,7 +515,7 @@
         "Safer communities": 90
       },
       "2024-25": {
-        "Police Service of NI": 925,
+        "Police Service of NI": 926,
         "Access to justice": 223,
         "Reducing offending": 178,
         "Safer communities": 93
@@ -624,10 +624,10 @@
   },
   "dfe": {
     "tree_data": {
-      "Employment and skills": 423,
-      "Student support and higher education": 332,
-      "Economic and business development": 233,
-      "Other": 81
+      "Employment and skills": 419,
+      "Student support and higher education": 333,
+      "Economic and business development": 234,
+      "Other": 80
     },
     "line_data": {
       "2016-17": 896,
@@ -638,7 +638,7 @@
       "2021-22": 1208,
       "2022-23": 1000,
       "2023-24": 1012,
-      "2024-25": 1069
+      "2024-25": 1065
     },
     "bar_data": {
       "2016-17": {
@@ -714,13 +714,13 @@
         "Tourism Ireland Ltd.": 5
       },
       "2024-25": {
-        "Employment and skills": 423,
-        "Student support and higher education": 332,
-        "Economic and business development": 233,
-        "Tourism": 44,
+        "Employment and skills": 419,
+        "Student support and higher education": 333,
+        "Economic and business development": 234,
+        "Tourism": 43,
         "Representation and regulatory services": 30,
         "InterTradeIreland": 7,
-        "Tourism Ireland Ltd.": -0
+        "Tourism Ireland Ltd.": 0
       }
     }
   },
@@ -740,7 +740,7 @@
       "2021-22": 661,
       "2022-23": 645,
       "2023-24": 698,
-      "2024-25": 727
+      "2024-25": 728
     },
     "bar_data": {
       "2016-17": {
@@ -813,7 +813,7 @@
         "Environment, marine and fisheries": 85,
         "Rural affairs": 20,
         "Forestry": 19,
-        "Foyle, Carlingford and Irish Lights Commission": 4
+        "Foyle, Carlingford and Irish Lights Commission": 3
       }
     }
   },

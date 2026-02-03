@@ -1,16 +1,16 @@
 {
-  "_metadata": ["Data for NI Executive webpage", "updated on 05/09/2025 10:01:22", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
+  "_metadata": ["Data for NI Executive webpage", "updated on 29/01/2026 13:29:45", "based on data from 2016-17 to 2024-25", "input file name = C:/Users/2337923/Desktop/_current_projects/36 - ELMS Public Expenditure/Public-Expenditure-ELMS-repo/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2024-25.xlsx"],
   "overall": {
-    "spend": 29.1,
-    "spend_pp": 15100,
+    "spend": 29,
+    "spend_pp": 15000,
     "population": 1928000,
     "tree_data": {
-      "Benefits and pensions (AME)": 12806,
+      "Benefits and pensions (AME)": 12701,
       "Health": 8330,
       "Education": 3148,
       "Justice": 1334,
       "Communities": 908,
-      "Economy": 824,
+      "Economy": 821,
       "DAERA": 626,
       "Infrastructure": 611,
       "Finance": 192,
@@ -25,7 +25,7 @@
       "2021-22": 25032,
       "2022-23": 25543,
       "2023-24": 26626,
-      "2024-25": 29086
+      "2024-25": 28978
     },
     "line_data_per_person": {
       "2016-17": 9800,
@@ -36,7 +36,7 @@
       "2021-22": 13100,
       "2022-23": 13400,
       "2023-24": 13900,
-      "2024-25": 15100
+      "2024-25": 15000
     }
   },
   "del": {
@@ -44,14 +44,14 @@
     "spend_pp": 8400
   },
   "ame": {
-    "spend": 12.8,
+    "spend": 12.7,
     "spend_pp": 6600,
     "tree_data": {
       "Pension and other related benefits": 3738,
       "Working age benefits": 2886,
       "Disability benefits": 2678,
-      "Other": 2225,
-      "Health and Social Care pensions": 873,
+      "Other": 2261,
+      "Health and Social Care pensions": 732,
       "Housing": 406
     },
     "line_data": {
@@ -63,7 +63,7 @@
       "2021-22": 10588,
       "2022-23": 11261,
       "2023-24": 11212,
-      "2024-25": 12806
+      "2024-25": 12701
     },
     "bar_data": {
       "2016-17": {
@@ -125,8 +125,8 @@
         "Pension and other related benefits": 3738,
         "Working age benefits": 2886,
         "Disability benefits": 2678,
-        "Other": 2225,
-        "Health and Social Care pensions": 873,
+        "Other": 2261,
+        "Health and Social Care pensions": 732,
         "Housing": 406
       }
     }
@@ -532,10 +532,10 @@
   },
   "dfe": {
     "tree_data": {
-      "Employment and skills": 391,
-      "Student support and higher education": 224,
-      "Economic and business development": 132,
-      "Other": 77
+      "Employment and skills": 387,
+      "Student support and higher education": 225,
+      "Economic and business development": 133,
+      "Other": 76
     },
     "line_data": {
       "2016-17": 816,
@@ -546,7 +546,7 @@
       "2021-22": 1096,
       "2022-23": 780,
       "2023-24": 792,
-      "2024-25": 824
+      "2024-25": 821
     },
     "bar_data": {
       "2016-17": {
@@ -622,10 +622,10 @@
         "Tourism Ireland Ltd.": 5
       },
       "2024-25": {
-        "Employment and skills": 391,
-        "Student support and higher education": 224,
-        "Economic and business development": 132,
-        "Tourism": 43,
+        "Employment and skills": 387,
+        "Student support and higher education": 225,
+        "Economic and business development": 133,
+        "Tourism": 42,
         "Representation and regulatory services": 29,
         "InterTradeIreland": 6,
         "Tourism Ireland Ltd.": -1
@@ -719,7 +719,7 @@
         "Food and farming": 426,
         "Veterinary service and animal health": 105,
         "Environment, marine and fisheries": 63,
-        "Forestry": 17,
+        "Forestry": 18,
         "Rural affairs": 13,
         "Foyle, Carlingford and Irish Lights Commission": 2
       }
