@@ -1,5 +1,9 @@
 body {
-	font-family: Open Sans,Helvetica Neue,Arial,sans-serif
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;     
+  font-weight: 400;
+  color: #222222;
 }
 
 .container {
@@ -11,22 +15,20 @@ section .row, header .row, .footer-container .row {
     width: 960px;
 }
 
-h1 {
-	font-size: 1.6rem;
-}
+/* Headings per style guide */
+h1 { font-size: 3rem !important; line-height: 1.285; font-weight: 700; }
+@media (min-width: 992px) { h1 { font-size: 30px; line-height: 1.3; } }
 
-h2 {
-	font-size: 1.5rem;
-}
+h2 { font-size: 24px; line-height: 1.333; font-weight: 400; }
+@media (min-width: 992px) { h2 { font-size: 25px; line-height: 1.32; } }
 
-h3 {
-	font-size: 1.25rem;
-	font-weight: bold;
-}
+h3 { font-size: 21px; line-height: 1.143; font-weight: 400; }
+@media (min-width: 992px) { h3 { font-size: 24px; line-height: 1.25; } }
 
-h4 {
-	font-size: 1rem;
-}
+h4 { font-size: 18px; line-height: 1.333; font-weight: 400; }
+@media (min-width: 992px) { h4 { font-size: 21px; line-height: 1.286; } }
+
+
 
 dt {
 	font-weight: normal;
@@ -62,7 +64,7 @@ dt {
 }
 
 .nav-tint {
-    background: rgb(255,255,255);
+    background: #142062;
     margin-top:0;
     margin-left:0;
 }
@@ -163,7 +165,7 @@ li.footer2 {
 
 
 a:link, a:visited, a:active {
-	color: #326baf !important;
+	color: #0F6FB8 !important;
 	text-decoration: underline 1px;
 }
 
@@ -173,8 +175,8 @@ a:link, a:visited, a:active {
 }
 
 
- a:hover {
-	text-decoration:underline;
+ a:hover, a:focus {
+	text-decoration:underline 3px;
 } 
 
 .warning a {
@@ -514,9 +516,14 @@ a:link, a:visited, a:active {
 }
 
 .btn-primary {
-	background-color:#3878c5;
+	background-color:#732777;
+	border-color: #732777;
 	}
 	
+.btn-primary:hover {
+background-color: #6c757d;
+border-color: #6c757d;
+}
 	.btn-check:checked+.btn {
 		background-color:#3878c5;
 		border-color: #3878c5;
@@ -710,7 +717,7 @@ a.cookiesbarlink {
 }
 
 .spend-btn:hover {
-	text-decoration: underline;
+	text-decoration: underline 3px;
 }
 
 .i-button {
@@ -742,9 +749,56 @@ a.cookiesbarlink {
 
 footer a[target="_blank"]::after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11"><g fill="none" stroke="white" stroke-width="1"><path d="M0 3h2V0h12v8h-2v3H0zm13-2H3v6h10zM2 4H1v4h1zm-1 6h10V8H1z"/></g></svg>');
+  color: #fff; 
   display: inline-block;
   width: 14px;
   height: 11px;
   margin: 0 5px 0 5px;
   vertical-align: text-top;
+}
+
+	/* ===========================
+   Footer
+   =========================== */
+/* Align footer with main content width */
+.footer .container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background-color: #00205b;
+  color: #fff !important;
+  border-top: 4px solid #3878c5;
+}
+.footer a {
+  color: #fff !important;
+  text-underline-offset: 3px;
+}
+.footer a:hover,
+.footer a:focus {
+  color: #fff !important;
+  text-decoration-thickness: 2px;
+}
+.footer-links { list-style: none; padding-left: 0; }
+.footer-links .list-inline-item { margin: 0 .5rem; }
+
+/* More vertical spacing in vertical lists */
+.footer ul.list-unstyled li { margin-bottom: 0.5rem; }
+
+/* Social icon hover */
+.footer .list-inline-item img {
+  transition: box-shadow 0.2s ease, border 0.2s ease;
+}
+.footer .list-inline-item img:hover {
+  border: 2px solid #fff !important;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+
+.img-50 {
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
 }
