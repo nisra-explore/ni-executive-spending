@@ -1,5 +1,5 @@
 {
-  "_metadata": ["Data for NI Executive webpage", "updated on 08/10/2026 14:00:36", "based on data from 2016-17 to 2025-26", "input file name = C:/Users/2332211/Desktop/code/r/Public-Expenditure/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2025-26.xlsx"],
+  "_metadata": ["Data for NI Executive webpage", "updated on 27/10/2026 09:47:24", "based on data from 2016-17 to 2025-26", "input file name = C:/Users/2332211/Desktop/code/r/Public-Expenditure/data-processing/data/Departmental Spending Analysis DEL & AME 2016-17 to 2025-26.xlsx"],
   "overall": {
     "spend": 33,
     "spend_pp": 17100,
@@ -12,7 +12,7 @@
       "Infrastructure": 1511,
       "Communities": 1231,
       "Economy": 1083,
-      "DAERA": 767,
+      "DAERA": 784,
       "Finance": 262,
       "TEO": 206
     },
@@ -26,7 +26,7 @@
       "2022-23": 27963,
       "2023-24": 29336,
       "2024-25": 31844,
-      "2025-26": 32963
+      "2025-26": 32981
     },
     "line_data_per_person": {
       "2016-17": 10600,
@@ -797,9 +797,8 @@
   "daera": {
     "tree_data": {
       "Food and farming": 499,
-      "Veterinary service and animal health": 142,
-      "Other": 78,
-      "Northern Ireland Environment Agency": 46
+      "Other": 142,
+      "Veterinary service and animal health": 142
     },
     "line_data": {
       "2016-17": 220,
@@ -811,7 +810,7 @@
       "2022-23": 645,
       "2023-24": 698,
       "2024-25": 728,
-      "2025-26": 767
+      "2025-26": 784
     },
     "bar_data": {
       "2016-17": {
@@ -892,6 +891,7 @@
         "Northern Ireland Environment Agency": 46,
         "Environment, marine and fisheries": 37,
         "Rural affairs": 22,
+        "Climate Change, Science and Innovation": 17,
         "Forestry": 17,
         "Foyle, Carlingford and Irish Lights Commission": 4
       }
@@ -919,7 +919,7 @@
     },
     "bar_data": {
       "2016-17": {
-        "NI Civil Service accomodation services": 69,
+        "NI Civil Service accommodation services": 69,
         "NI Civil Service shared services": 53,
         "Land and Property Services": 18,
         "Finance and personnel policy and other services": 17,
@@ -929,7 +929,7 @@
       },
       "2017-18": {
         "NI Civil Service shared services": 69,
-        "NI Civil Service accomodation services": 64,
+        "NI Civil Service accommodation services": 64,
         "Finance and personnel policy and other services": 19,
         "Land and Property Services": 17,
         "NI Statistics and Research Agency": 11,
@@ -937,7 +937,7 @@
         "EU programmes": -0
       },
       "2018-19": {
-        "NI Civil Service accomodation services": 68,
+        "NI Civil Service accommodation services": 68,
         "NI Civil Service shared services": 67,
         "Finance and personnel policy and other services": 19,
         "NI Statistics and Research Agency": 13,
@@ -947,7 +947,7 @@
       },
       "2019-20": {
         "NI Civil Service shared services": 83,
-        "NI Civil Service accomodation services": 52,
+        "NI Civil Service accommodation services": 52,
         "Land and Property Services": 23,
         "Finance and personnel policy and other services": 21,
         "NI Statistics and Research Agency": 15,
@@ -957,7 +957,7 @@
       "2020-21": {
         "Land and Property Services": 399,
         "NI Civil Service shared services": 77,
-        "NI Civil Service accomodation services": 39,
+        "NI Civil Service accommodation services": 39,
         "Finance and personnel policy and other services": 30,
         "NI Statistics and Research Agency": 21,
         "Special EU Programmes body": 2,
@@ -966,7 +966,7 @@
       "2021-22": {
         "Land and Property Services": 144,
         "NI Civil Service shared services": 73,
-        "NI Civil Service accomodation services": 60,
+        "NI Civil Service accommodation services": 60,
         "Finance, procurement and policy": 21,
         "NI Statistics and Research Agency": 19,
         "Special EU Programmes body": 2,
@@ -974,7 +974,7 @@
       },
       "2022-23": {
         "NI Civil Service shared services": 75,
-        "NI Civil Service accomodation services": 42,
+        "NI Civil Service accommodation services": 42,
         "Land and Property Services": 42,
         "Finance, procurement and policy": 23,
         "NI Statistics and Research Agency": 15,
@@ -984,7 +984,7 @@
       "2023-24": {
         "NI Civil Service shared services": 78,
         "Land and Property Services": 50,
-        "NI Civil Service accomodation services": 42,
+        "NI Civil Service accommodation services": 42,
         "Finance, procurement and policy": 22,
         "NI Statistics and Research Agency": 17,
         "Special EU Programmes body": 2,
@@ -993,7 +993,7 @@
       "2024-25": {
         "NI Civil Service shared services": 84,
         "Land and Property Services": 64,
-        "NI Civil Service accomodation services": 28,
+        "NI Civil Service accommodation services": 28,
         "Finance, procurement and policy": 20,
         "NI Statistics and Research Agency": 14,
         "EU programmes": 1,
