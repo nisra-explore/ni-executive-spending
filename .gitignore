@@ -1,4 +1,6 @@
+data/
+data.js
+.vscode/
+*.json
 .Rproj.user
 .Rhistory
-.RData
-.Ruserdata

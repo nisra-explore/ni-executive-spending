@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.csv
+*.js
+dashboard_tables*.xlsx
+*.txt
+data/*
+*.json
