@@ -919,7 +919,7 @@ function get_tree_data (dep) {
     labels: Object.keys(data[dep].tree_data),     // The labels are defined as the dep's tree_labels value
 
     datasets: [{
-      tree: Object.values(data[dep].tree_data),       // The tree data for the dep is read in
+      data: Object.values(data[dep].tree_data),       // The tree data for the dep is read in
       labels: {
         display: true,                      // Labels are displayed
         align: 'center',                    // And centre aligned
